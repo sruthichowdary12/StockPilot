@@ -1,0 +1,42 @@
+
+
+# Secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Java
+target/
+.classpath
+.project
+.settings/
+
+# React
+node_modules/
+dist/
+build/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Generated files
+data-pipeline/output/
+data-pipeline/logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Private keys
+*.pem
+*.key
+*.p12
+*.pfx
